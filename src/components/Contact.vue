@@ -3,7 +3,7 @@
     <h3 sec_num="07" class="section-title">Contact</h3>
     <div class="subtitle">Get In Touch</div>
     <div class="contact-info mt-5">
-      <a target="_blank" href="@/assets/resume.pdf" class="hollow-btn resume-link"><div class="overlay"></div>Download Resumé</a>
+      <a target="_blank" :href="resume" class="hollow-btn resume-link"><div class="overlay"></div>Download Resumé</a>
       <a href="mohammedadrianajao@gmail.com@gmail.com" target="_blank" class="hollow-btn"><span class="overlay"></span>mohammedadrianajao@gmail.com</a>
     </div>
   </div>
@@ -11,6 +11,11 @@
 
 <script>
 export default {
+  computed: {
+    resume() {
+      return require("@/assets/resume.pdf")
+    }
+  }
 }
 </script>
 

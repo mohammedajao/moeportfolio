@@ -1,6 +1,6 @@
 <template lang="html">
-  <div class="container-fluid">
-    <h3 data-v-a2d0ed54="" sec_num="05" class="section-title">Awards</h3>
+  <div class="container">
+    <h3 sec_num="05" class="section-title">Awards</h3>
      <h2 class="awards-title">Fruits of Labor</h2>
      <div class="awards-cont">
         <div class="row">
@@ -23,6 +23,11 @@ export default {
           title: "Student Showcase Winner",
           meta: "New York City Science Fair - March 2017",
           desc: "Created a dynamic, object-oriented AI that used the A* algorithm and compared it to a procedurally programmed AI's performance. The data was modeled to show the power of data encapsulation and entity design",
+        },
+        {
+          meta: "GOOGLE INNOVATION CHALLENGE - 2019",
+          title: "2nd Place",
+          desc: "Designed and pitched with a team of 5 a product, called 6STEP, to help youth easily find communities for their daily problems in six simple steps!"
         }
       ]
     }

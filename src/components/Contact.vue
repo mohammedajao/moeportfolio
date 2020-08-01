@@ -1,12 +1,12 @@
 <template lang="html">
-<div id="contact" class="container-fluid">
-  <h3 sec_num="07" class="section-title">Contact</h3>
-  <div class="subtitle">Get In Touch</div>
-  <div class="contact-info mt-5">
-    <a target="_blank" href="@/assets/resume.pdf" class="hollow-btn resume-link"><div class="overlay"></div>Download Resumé</a>
-    <a href="mohammedadrianajao@gmail.com@gmail.com" target="_blank" class="hollow-btn"><span class="overlay"></span>mohammedadrianajao@gmail.com</a>
+  <div id="contact" class="container">
+    <h3 sec_num="07" class="section-title">Contact</h3>
+    <div class="subtitle">Get In Touch</div>
+    <div class="contact-info mt-5">
+      <a target="_blank" href="@/assets/resume.pdf" class="hollow-btn resume-link"><div class="overlay"></div>Download Resumé</a>
+      <a href="mohammedadrianajao@gmail.com@gmail.com" target="_blank" class="hollow-btn"><span class="overlay"></span>mohammedadrianajao@gmail.com</a>
+    </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -17,7 +17,7 @@ export default {
 <style lang="css" scoped>
 #contact {
 	height: 100vh;
-	font-family: Poppins, sans-serif
+	font-family: "Poppins", sans-serif
 }
 
 #contact .contact-info {

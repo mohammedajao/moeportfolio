@@ -1,4 +1,5 @@
 <template lang="html">
+<div>
   <div class="container row m-5">
      <div class="container col" style="display: flex; justify-content: center; flex-direction: column; text-align: left;">
         <h3 sec_num="01" class="section-title">Who Am I</h3>
@@ -6,6 +7,7 @@
      </div>
      <div class="container col-6 d-none d-lg-flex" style="display: flex; justify-content: center; align-items: center;"><img src="@/assets/profile_pic.ba69fefb.jpg" alt="" class="avatar"></div>
   </div>
+</div>
 </template>
 
 <script>

@@ -1,12 +1,13 @@
 <template>
   <div id="app">
-    <hero id="hero" class="hj-section" />
-    <about id="about-me" class="hj-section"/>
-    <experience id="experience" class="hj-section"/>
-    <projects id="projects" class="hj-section"/>
-    <skills />
-    <awards id="accolades" class="hj-section"/>
-    <contact id="contact" class="hj-section"/>
+    <hero id="hero" />
+    <about id="about-me" class="hj_section"/>
+    <experience id="experience" class="hj_section"/>
+    <projects id="projects"/>
+    <skills id="skills"/>
+    <awards id="accolades"/>
+    <drawings id="artwork" />
+    <contact id="contact"/>
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import Experience from './components/Experience.vue'
 import Projects from './components/Projects.vue'
 import Skills from './components/Skills.vue'
 import Awards from './components/Accolades.vue'
+import Drawings from './components/Drawings.vue'
 import Contact from './components/Contact.vue'
 
 export default {
@@ -28,6 +30,7 @@ export default {
     Projects,
     Skills,
     Awards,
+    Drawings,
     Contact
   }
 }
@@ -56,7 +59,6 @@ html {
 #app .hj_section {
 	height: 100vh;
 	overflow: hidden;
-  margin-bottom: 30px;
 }
 
 #app .section-title {
@@ -130,8 +132,6 @@ html {
 #app .hj_section>div {
 	height: 100%;
 	width: 100%;
-	margin: 0;
-	padding: 0
 }
 
 @media (max-width:768px) {

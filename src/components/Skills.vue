@@ -1,5 +1,6 @@
 <template lang="html">
-<div id="skills" class="container-fluid mb-5">
+
+<div id="skills" class="container mb-5">
    <h3 sec_num="04" class="section-title">Skills</h3>
    <div class="row mt-5">
       <div class="col-12 col-md-3 skill" v-for="(skill, index) in skills" :key="index">

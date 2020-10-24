@@ -3,7 +3,12 @@
 		<h3 data-v-5ad8185a="" sec_num="06" class="section-title">Drawings</h3>
 		<div class="row container" id="drawings">
 			<span v-if="art.length == 0">Loading drawings...</span>
-			<img v-for="(pic, index) in art" :key="index" :src="pic.covers[404]" :alt="pic.name" class="drawing col-md-3 col-4 p-0">
+			<!-- <div v-for="(pic, index) in art" :key="index" class="drawing col-md-3 col-4 p-0" :style="{'background-image': 'url('+pic.covers[404]+')'}">
+
+			</div> -->
+			<div class="drawing col-md-3 col-4 p-0" v-for="(pic, index) in art" :key="index">
+				<img :src="pic.covers[404]" :alt="pic.name" class="drawing">
+			</div>
 		</div>
 	</div>
 </template>
@@ -35,8 +40,20 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+/* #drawings .drawing {
+	width: 100%;
+	height: auto!important;
+	padding-top: 100%;
+	object-fit: cover;
+	background-size: cover;
+	overflow: hidden;
+	display: inline-block;
+} */
+
 #drawings .drawing img{
 	width: 100%;
-	height: auto!important
+	height: auto;
+	overflow: hidden;
 }
 </style>

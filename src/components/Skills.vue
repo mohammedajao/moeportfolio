@@ -22,11 +22,22 @@ export default {
         "Android Studio",
         "Lua",
         "Python",
-        "HTML",
-        "CSS",
+        "Web Development",
+        "SCSS",
+        "MongoDB",
+        "AWS",
+        "Docker",
+        "C++",
+        "SQL",
+        "NuxtJS",
+        "Laravel",
+        "Adonis",
         "Golang",
         "VueJS",
-        "NodeJS"
+        "NodeJS",
+        "UI/UX Design",
+        "Project Management",
+        "Product Design"
       ]
     }
   }

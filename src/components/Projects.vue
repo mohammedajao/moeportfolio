@@ -59,8 +59,8 @@ export default {
         },
         {
           title: "Bear Bot",
-          desc: "Developed a DiscordJS bot that utilizes several APIs such as YouTube, Spotify, and MAL (MyAnimeList) to serve requested static content. The bot also includes several custom games and utilization of MongoDB to allow users to save data and a currency system. It also includes a RPG in the works",
-          skills: ["Javascript", "Discord.js", "MongoDB", "REST"]
+          desc: "Developed a DiscordJS bot that utilizes several APIs such as YouTube, Spotify, and MAL (MyAnimeList) to serve requested static content. The bot also includes several custom games, a progression system based on text and voice actions, flexible client and role permissions, and utilization of MongoDB to allow users to save data and a currency system. It also includes a RPG in the works.",
+          skills: ["Javascript", "Discord.js", "MongoDB", "REST", "Commando Framework"]
         },
         {
           title: "Bloxx Framework",

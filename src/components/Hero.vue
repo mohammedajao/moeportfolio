@@ -3,7 +3,7 @@
      <div class="main_nav d-none d-md-inline-block">
        <a v-for="(image, link) in this.nav" :key="link" :href="link"><i :class="image"></i></a>
      </div>
-     <div class="hero d-inline-block">
+     <div class="hero d-flex d-md-inline-block">
         <span>
            <div class="d-inline-block h-rule"></div>
            <p class="d-inline-block">Mohammed Ajao | Software Engineer</p>
@@ -121,9 +121,37 @@ export default {
 	margin-right: 30px
 }
 
-@media(max-width:600px) {
-	#hero .hero h1 {
+@media(max-width: 1000px) {
+  #hero .hero h1 {
 		font-size: 32px
 	}
+}
+
+@media (max-width: 768px) {
+  #hero .hero h1 {
+		font-size: 32px
+	}
+
+  #hero .hero {
+    height: 100vh;
+    justify-content: center;
+  }
+
+  #hero .hero .hj-btn {
+    display: inline-block;
+    max-width: fit-content;
+  }
+
+  #app .hero p {
+  	max-width: 90%;
+  	font-weight: 400;
+  	margin-bottom: 0;
+    font-size: 16px;
+  }
+}
+
+
+@media(max-width:600px) {
+
 }
 </style>

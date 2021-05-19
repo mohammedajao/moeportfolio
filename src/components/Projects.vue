@@ -3,7 +3,7 @@
      <h3 sec_num="03" class="section-title mt-5">My Projects</h3>
      <div class="container">
         <div class="featured-project d-none d-lg-flex row">
-           <div class="col-8 featured-img"><img src="https://t1.rbxcdn.com/cc44b3fbc7b154103199fa90f5b3ded7"></div>
+           <div class="col-8 featured-img"><img src="https://t3.rbxcdn.com/dbff7027d46e1383105bce86b2d1b0ba"></div>
            <div class="project-info col-4">
               <div class="header">
                  <p class="device-type">IOS | PC | XBox </p>

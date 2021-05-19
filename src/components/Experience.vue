@@ -91,6 +91,14 @@ export default {
           title: "Android Developer",
           bullets: ["Developed over seven projects featuring feature-rich apps such as a Twitter or Instagram clone with fail-safe features", "Developed a social media app named Memelord with several social media features, well-developed models, and presented it", "Introduced complex relations such as following, profiles, user instant messaging, and a trending algorithm"],
           technologies: ["Java", "Git", "Android Studio", "Parse", "SQLite", "Room"]
+        },
+        {
+          logo: "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/07/sdffdsafsdf-1200x604.png",
+          company: "Facebook",
+          date: "June 2021",
+          title: "Seller Expansion Android Developer",
+          bullets: ["Currently working"],
+          technologies: ["Java", "Git", "Android Studio"]
         }
       ]
     }
